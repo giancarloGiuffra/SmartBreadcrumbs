@@ -3,14 +3,11 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\src\SmartBreadcrumbs.csproj" />
-  </ItemGroup>
-
+  
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.0.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.0.0" />
+    <PackageReference Include="SmartBreadcrumbs" Version="3.5.1" />
   </ItemGroup>
 
 </Project>
